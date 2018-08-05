@@ -7,13 +7,14 @@ public class ScoreKeeper : MonoBehaviour {
 
     private long _currentScore = 0;
 
-	private void IncrementScore()
+	public void IncrementScore(int amount)
     {
-        GetComponent<Text>().text = "Score: " + _currentScore++;
+        _currentScore += amount;
+        GetComponent<Text>().text = "Score: " + _currentScore;
     }
 
 	// Update is called once per frame
 	void Update () {
-        IncrementScore();
+        IncrementScore(1);
     }
 }

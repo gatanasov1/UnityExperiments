@@ -65,6 +65,7 @@
     <Compile Include="Assets\Code\GameOverCollider.cs" />
     <Compile Include="Assets\Code\MoveLeft.cs" />
     <Compile Include="Assets\Code\ScoreKeeper.cs" />
+    <Compile Include="Assets\Code\ScoreObject.cs" />
     <Compile Include="Assets\Code\TextureScroller.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>I:/Gamedev/Projects/Flappy Birds/Blatant Flappy Bird Clone/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
